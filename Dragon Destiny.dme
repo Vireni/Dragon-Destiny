@@ -1,0 +1,31 @@
+// DM Environment file for Dragon Destiny.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "Assets"
+#define FILE_DIR "Assets/Icons"
+#define FILE_DIR "Assets/Images"
+#define FILE_DIR "Assets/Sounds"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "Interface.dmf"
+#include "Vegeta.dmm"
+#include "Code\Dragon Destiny basics.dm"
+#include "Code\Login and Character Creation.dm"
+#include "Code\Procs.dm"
+#include "Code\Race Mods and Starting Stats.dm"
+#include "Code\Stats.dm"
+#include "Code\Turfs.dm"
+#include "Code\Verbs.dm"
+// END_INCLUDE
+
