@@ -1,4 +1,12 @@
 /*
+NOTE FOR ALL RACES EXCEPT ARCOSIANS, THERE IS ALSO LIMB STATS
+FOR EVERY RACE EXCEPT ARCOSIANS, HERE ARE THE STARTING LIMBS
+Right Arm: 10
+Right Leg:10
+LA: 10
+LL:10
+
+For Arcosians, it's 100 instead of 10 
 
 Aliens (Gravity 15x))
 	Akai Type
@@ -12,7 +20,7 @@ Aliens (Gravity 15x))
 		KI 10
 		KIRES 10
 		Health 10
-		Lift: .1
+		Lift: 100
 
 
 		Here are their mods
@@ -39,7 +47,7 @@ Aliens (Gravity 15x))
 		KI 7
 		KIRES 7
 		Health 7
-		Lift: .1
+		Lift: 100
 
 
 		Mods
@@ -66,7 +74,7 @@ Aliens (Gravity 15x))
 		KI 10
 		KIRES 10
 		Health
-		Lift: .1
+		Lift: 100
 
 
 
@@ -94,7 +102,7 @@ Aliens (Gravity 15x))
 		KI 10
 		KIRES 10
 		Health
-		Lift: .1
+		Lift: 100
 
 
 		Mods
@@ -121,7 +129,7 @@ Aliens (Gravity 15x))
 		KI 10
 		KIRES 10
 		Health
-		Lift: .1
+		Lift: 100
 
 
 		Mods
@@ -149,7 +157,7 @@ Aliens (Gravity 15x))
 		KI 10
 		KIRES 10
 		Health 10
-		Lift: .1
+		Lift: 100
 
 
 		Here are their stat mods
@@ -176,7 +184,7 @@ Aliens (Gravity 15x))
 		KI 10
 		KIRES 10
 		Health 10
-		Lift: .1
+		Lift: 100
 
 
 		Mods
@@ -204,7 +212,7 @@ Aliens (Gravity 15x))
 		KI 10
 		KIRES 10
 		Health 10
-		Lift: .1
+		Lift: 100
 
 
 		Mods
@@ -231,7 +239,7 @@ Aliens (Gravity 15x))
 		KI 10
 		KIRES 10
 		Health: 10
-		LIFT: 0.1
+		LIFT: 100
 
 
 		Mods
@@ -258,7 +266,7 @@ Aliens (Gravity 15x))
 		KI 10
 		KIRES 10
 		Health 10
-		Lift: .1
+		Lift: 100
 
 
 		Mods
@@ -285,7 +293,7 @@ Aliens (Gravity 15x))
 		KI 10
 		KIRES 10
 		Health 10
-		Lift: .1
+		Lift: 100
 
 
 		Mods
@@ -312,7 +320,7 @@ Aliens (Gravity 15x))
 		KI 10
 		KIRES 10
 		Health 10
-		Lift: .1
+		Lift: 100
 
 
 		Here are their mods
@@ -407,6 +415,7 @@ Aliens (Gravity 15x))
 		KI: 100
 		KIRES: 100
 		Health: 100
+		Lift: 100
 		Gravity: 50 mastered (The number used for PL being 490 since 9.8 x 50 = 490)
 
 	Demi Gods (15x Gravity)
@@ -420,7 +429,7 @@ Aliens (Gravity 15x))
 		KI 20
 		KIRES 20
 		Health 20
-		Lift: .1
+		Lift: 100
 
 
 		Mods
@@ -447,7 +456,7 @@ Aliens (Gravity 15x))
 		KI 10
 		KIRES 10
 		Health 10
-		Lift: .1
+		Lift: 100
 
 
 		Mods
@@ -474,7 +483,7 @@ Aliens (Gravity 15x))
 		KI 10
 		KIRES 10
 		Health 10
-		Lift: .1
+		Lift: 100
 
 
 		Mods
@@ -501,7 +510,7 @@ Aliens (Gravity 15x))
 		KI 10
 		KIRES 10
 		Health 10
-		Lift: .1
+		Lift: 100
 
 
 		Mods
@@ -528,7 +537,7 @@ Aliens (Gravity 15x))
 		KI 10
 		KIRES 10
 		Health 10
-		Lift: .1
+		Lift: 100
 
 
 		Mods
@@ -562,7 +571,7 @@ Aliens (Gravity 15x))
 		KI 10
 		KIRES 10
 		Health 10
-		Lift: .1
+		Lift: 100
 
 
 		Namekian Fighters excel in Ki and Energy, and have decent at speed and endurance. They also excel in lift, but are quite lacking in
@@ -589,7 +598,7 @@ Aliens (Gravity 15x))
 		KI 5
 		KIRES 5
 		Health 5
-		Lift: .1
+		Lift: 100
 
 
 		Namekian Healers are lacking in physical stats, but their health, ki, ki res and and energy make up for it.
@@ -614,7 +623,7 @@ Aliens (Gravity 15x))
 		KI 100
 		KIRES 100
 		Health 100
-		Lift: .1
+		Lift: 100
 
 
 		Mods
@@ -652,7 +661,7 @@ Aliens (Gravity 15x))
 		Sorcery Mod: 20x
 
 			 Low-Class Saiyans are born with a little less stats than the average Saiyan and elites.
-		They’re born with
+		Theyâ€™re born with
 
 
 		STR: 8
@@ -729,7 +738,7 @@ Aliens (Gravity 15x))
 		KI 10
 		KIRES 10
 		Health 10
-		Lift: .1
+		Lift: 100
 
 
 		Mods
@@ -756,7 +765,7 @@ Aliens (Gravity 15x))
 		KI 5
 		KIRES 5
 		Health 5
-		Lift: .1
+		Lift: 100
 
 
 		MODS
@@ -785,7 +794,7 @@ Here are their starting stats
 		KI 3
 		KIRES 3
 		Health 3
-		Lift: .1
+		Lift: 100
 
 
 		MODS
@@ -812,7 +821,7 @@ Here are their starting stats
 		KI 10
 		KIRES 10
 		Health 10
-		Lift: .1
+		Lift: 100
 
 
 		Mods
@@ -829,7 +838,7 @@ Here are their starting stats
 		Sorc: 11x
 
 	Zeno (10x Gravity)
-		Zeno Race doesn’t have mods, just stat presets
+		Zeno Race doesnâ€™t have mods, just stat presets
 
 
 		STR 1,000,000,000,000,000
