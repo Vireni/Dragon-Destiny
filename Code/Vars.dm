@@ -1,0 +1,10 @@
+mob
+	var
+		STR
+		END
+		SPD
+		ENR
+		KI
+		KIRES
+		Health
+		Lift

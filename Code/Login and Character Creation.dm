@@ -1,14 +1,8 @@
 mob
 	Login()
-		if(fexists("Players/[src.key].save"))
-			src<< output("Are you sure you wish to start a new game?","output1")
-		else
-			src.sight |= BLIND
-			src.icon = 'Base_TanHumanAdult.dmi'
-			src.icon_state = "standing"
-			winshow(src,"newchar",1)
-			var/icon/I = Fuse_Icons(src)
-			winset(src,"newchar.chardisplay","image=\ref[fcopy_rsc(I)]")
+		src.loc = locate(15,13,2)
+		world << output("Test","output1")
+		src.sight &= ~BLIND
 /*
 For each race, have the imaged correlate with it in the background, and there are titles for each race written in DBZ font that I want
 in the center. Also note I want the picture with the red Z as the login screen.
