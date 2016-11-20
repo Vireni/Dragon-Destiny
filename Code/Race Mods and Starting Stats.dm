@@ -5,6 +5,8 @@ Right Arm: 10
 Right Leg:10
 LA: 10
 LL:10
+Head: 10
+Torso: 10
 
 For Arcosians, it's 100 instead of 10 
 
