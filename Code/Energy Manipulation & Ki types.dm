@@ -10,7 +10,8 @@ Anyway, here are the ki types.
 Explosive Ki
 	Explosive Ki basically when your attack hits, it emits a ki explosion.When ki explosions happen, they do double the damage. And if your
 	lethality is on, and you manage to bring your opponent's health to 0 with that one attack, you will kill them and not even leave a
-	corpse.
+	corpse.  When your explosive blast hits someone, the "Plasma explosion" icon will display. Have it vanish after being looped 1 time.
+
 
 Penetrative Ki
 	Penetrative Ki is basically when your attack hits, it's going to try to go right through your target. If your lethality is on, and your
