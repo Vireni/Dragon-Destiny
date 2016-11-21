@@ -82,6 +82,9 @@ Water gives 70 thirst
 
 When in a bed, you gain .05 tiredness every second.
 
+In terms of getting hungry/thirsty/growing tired, you lose .004% of each stat a second. Saiyans lose .012% of hunger a second, and
+Arcosians lose .006% of thirst a second.
+
 
 
 */
