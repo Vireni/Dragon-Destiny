@@ -10,3 +10,5 @@ If a Saiyan posseses the skills "Relaxed Super Saiyan" and "Full-Power Super Sai
 will be a golden Oozaru. It's still a 10x boost, but this time they will have the golden oozaru icon.
 
 All Oozaru forms wear off when it becomes daytime.
+
+*/
