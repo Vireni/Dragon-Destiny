@@ -11,6 +11,7 @@ obj
 				usr.sight |= BLIND
 				usr.icon = 'Base_ArcosianFriezaBase.dmi'
 				usr.icon_state = "standing"
+				usr.Race = "Arcosians"
 				winshow(usr,"Character",1)
 				var/icon/I = Fuse_Icons(usr)
 				winset(usr,"Character.chardisplay","image=\ref[fcopy_rsc(I)]")

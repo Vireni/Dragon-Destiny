@@ -10,8 +10,6 @@ mob
 	Login()
 		src.loc = locate(1,1,2)
 		step_size = 1
-		world << output("Test","output1")
-		src.sight &= ~BLIND
 /*
 For each race, have the imaged correlate with it in the background, and there are titles for each race written in DBZ font that I want
 in the center. Also note I want the picture with the red Z as the login screen.
