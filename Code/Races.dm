@@ -268,7 +268,7 @@ mob/races
 
 				STR = 10200 ; END = 10200 ; SPD = 10200
 				ENR = 10200 ; KI = 10200 ; KIRES = 10200
-				Health = 10200 ; Lift = 100
+				Health = 10200 ; Lift = 10200
 
 		SpiritDolls //(1x Gravity)
 
