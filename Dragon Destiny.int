@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1479572119
-DIR: Assets\Icons Code 
+LAST_COMPILE_TIME: 1479995838
+DIR: Assets Code 
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 510.1347
-WINDOW: Code\Types of Training.dm;Interface.dmf;Code\Procs.dm;Assets\Icons\Base_PaleHumanAdult.dmi;Assets\Icons\Base_TanHumanAdult.dmi;Code\Turfs.dm;Assets\Icons\TitleHumans.dmi;Assets\Icons\turfs grass.dmi;Assets\Icons\turfs.dmi;Code\Verbs.dm;Code\Login and Character Creation.dm
-FILE: Code\Login and Character Creation.dm
+WINDOW: Code\Procs.dm;Interface.dmf;Vegeta.dmm;Code\Objects.dm;Code\Login and Character Creation.dm;Code\Dragon Destiny basics.dm;Code\Races.dm;Code\Vars.dm;Code\Gains.dm
+FILE: Code\Procs.dm
 */
 // END_INTERNALS

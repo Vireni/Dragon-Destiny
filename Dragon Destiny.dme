@@ -22,10 +22,12 @@
 #include "Vegeta.dmm"
 #include "Code\Dragon Destiny basics.dm"
 #include "Code\Login and Character Creation.dm"
+#include "Code\Objects.dm"
 #include "Code\Procs.dm"
-#include "Code\Race Mods and Starting Stats.dm"
+#include "Code\Races.dm"
 #include "Code\Stats.dm"
 #include "Code\Turfs.dm"
+#include "Code\Vars.dm"
 #include "Code\Verbs.dm"
 // END_INCLUDE
 
