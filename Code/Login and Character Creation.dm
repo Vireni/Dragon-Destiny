@@ -1,6 +1,15 @@
+world
+	name = "Dragon Destiny"
+	view = 9
+	status = "Alpha testing"
+
+client
+	perspective = EDGE_PERSPECTIVE
+
 mob
 	Login()
-		src.loc = locate(15,13,2)
+		src.loc = locate(1,1,2)
+		step_size = 1
 		world << output("Test","output1")
 		src.sight &= ~BLIND
 /*

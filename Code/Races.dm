@@ -1,856 +1,317 @@
-/*
+mob/races
+	Aliens //(Gravity 15x))
+		Akai
 
-Aliens (Gravity 15x))
-	Akai Type
-		Here are their starting stats
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
+			MODSTR = 1 ; MODEND = 1 ; MODSPD = 0.7
+			MODENR = 1 ; MODKI = 1.6 ; MODKIRES = 1
+			MODGAIN = 1 ; MODINTEL = 7 ; MODSORC = 7
 
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health 10
-		Lift: .1
+		Gijutsu
+			STR = 7 ; END = 7 ; SPD = 7
+			ENR = 7 ; KI = 7 ; KIRES = 7
+			Health = 7 ; Lift = 100
 
+			MODSTR = 1 ; MODEND = 1 ; MODSPD = 1
+			MODENR = 1 ; MODKI = 1 ; MODKIRES = 1
+			MODGAIN = 0.7 ; MODINTEL = 2 ; MODSORC = 2
 
-		Here are their mods
+		Hariken
 
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
-		STR: 1x
-		END: 1x
-		SPD: .7x
-		ENR: 1x
-		KI: 1.6x
-		KIRES: 1x
-		Gain Mod: 1x
-		INTEL: 7
-		Sorcery: 7
+			MODSTR = 1 ; MODEND = 1 ; MODSPD = 1.6
+			MODENR = 1 ; MODKI = 0.7 ; MODKIRES = 1
+			MODGAIN = 1 ; MODINTEL = 7 ; MODSORC = 7
 
-	Gijutsu Type
-		Here are their starting stats
+		Hera
 
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
-		STR 7
-		END 7
-		SPD 7
-		ENR 7
-		KI 7
-		KIRES 7
-		Health 7
-		Lift: .1
+			MODSTR = 1.3 ; MODEND = 1.3 ; MODSPD = 1
+			MODENR = 1 ; MODKI = 1 ; MODKIRES = 1
+			MODGAIN = 1 ; MODINTEL = 8 ; MODSORC = 8
 
+		Jikan
 
-		Mods
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
+			MODSTR = 1 ; MODEND = 1.3 ; MODSPD = 1.6
+			MODENR = 1 ; MODKI = 0.7 ; MODKIRES = 1
+			MODGAIN = 1 ; MODINTEL = 6 ; MODSORC = 6
 
-		STR: 1x
-		END: 1x
-		SPD: 1x
-		ENR: 1x
-		KI: 1x
-		KIRES: 1x
-		GAIN: .7x
-		INTEL: 2
-		Sorcery: 2x
+		Kuri
 
-	Hariken Type
-		Here are their starting stats
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
+			MODSTR = 1 ; MODEND = 1 ; MODSPD = 1
+			MODENR = 1.1 ; MODKI = 1.3 ; MODKIRES = 1
+			MODGAIN = 1 ; MODINTEL = 7 ; MODSORC = 7
 
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health
-		Lift: .1
+		Makyo //(1x Gravity)
 
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
+			MODSTR = 1 ; MODEND = 1.3 ; MODSPD = 1
+			MODENR = 1 ; MODKI = 1.3 ; MODKIRES = 1
+			MODGAIN = 1 ; MODINTEL = 6 ; MODSORC = 6
 
-		Here are their stat mods
+		Neko
 
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
-		STR: 1x
-		END: 1x
-		SPD: 1.6x
-		ENR: 1x
-		KI: .7x
-		KIRES: 1x
-		GAIN: 1x
-		INTEL: 7x
-		Sorcery: 7x
+			MODSTR = 1 ; MODEND = 1.3 ; MODSPD = 1
+			MODENR = 1.3 ; MODKI = 1 ; MODKIRES = 1
+			MODGAIN = 1 ; MODINTEL = 6 ; MODSORC = 6
 
-	Hera Type
-		Here are their starting stats
+		Noido
 
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health
-		Lift: .1
+			MODSTR = 1.6 ; MODEND = 1.3 ; MODSPD = 1
+			MODENR = 1 ; MODKI = 1 ; MODKIRES = 1
+			MODGAIN = 1 ; MODINTEL = 15 ; MODSORC = 15
 
+		Shibo
 
-		Mods
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
+			MODSTR = 1 ; MODEND = 1.3 ; MODSPD = 1
+			MODENR = 1 ; MODKI = 1.3 ; MODKIRES = 1
+			MODGAIN = 1 ; MODINTEL = 9 ; MODSORC = 9
 
-		STR: 1.3x
-		END 1;3x
-		SPD 1x
-		ENR 1x
-		KI 1x
-		KIRES 1x
-		Gain 1x
-		Intel: 8
-		Sorc: 8x
+		Sukushi
 
-	Jikan Type
-		Here are their starting stats
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
+			MODSTR = 1.3 ; MODEND = 1.3 ; MODSPD = 1.3
+			MODENR = 0.7 ; MODKI = 0.7 ; MODKIRES = 1.3
+			MODGAIN = 1 ; MODINTEL = 9 ; MODSORC = 9
 
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health
-		Lift: .1
+		Taimu
 
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
-		Mods
+			MODSTR = 0.7 ; MODEND = 0.7 ; MODSPD = 1
+			MODENR = 1.6 ; MODKI = 1.6 ; MODKIRES = 1
+			MODGAIN = 0.25 ; MODINTEL = 7 ; MODSORC = 7
 
 
-		STR: 1x
-		END: 1.3x
-		SPD: 1.6x
-		ENR: 1x
-		KI: .7x
-		KIRES: 1x
+		Arcosians //(50x Gravity)
 
-		GAINS 1x
-		INTEL 6x
-		Sorc: 6x
+			STR = 100 ; END = 100 ; SPD = 100
+			ENR = 100 ; KI = 100 ; KIRES = 100
+			Health = 100 ; Lift = 100
 
-	Kuri Type
-		Here are their starting stats
+			Cooler
 
+				MODSTR = 1 ; MODEND = 1; MODSPD = 1
+				MODENR = 1.25 ; MODKI = 0.75 ; KIRES = 1
+				MODGAIN = 0.5 ; MODINTEL = 5 ; MODSORC = 5
 
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health 10
-		Lift: .1
+			Chilled
 
+				MODSTR = 0.75 ; MODEND = 0.75 ; MODSPD = 1
+				MODENR = 1.75 ; MODKI = 1.75 ; KIRES = 1
+				MODGAIN = 0.5 ; MODINTEL = 5 ; MODSORC = 5
 
-		Here are their stat mods
+			KingCold
 
+				MODSTR = 1.75 ; MODEND = 1.75 ; MODSPD = 1
+				MODENR = 0.75 ; MODKI = 0.75 ; KIRES = 1
+				MODGAIN = 0.5 ; MODINTEL = 5 ; MODSORC = 5
 
-		STR: 1x
-		END: 1x
-		SPD: 1x
-		ENR: 1.1x
-		KI: 1.3x
-		KIRES: 1x
-		Gain Mod: 1x
-		Intel Mod: 7
-		Sorc Mod: 7x
+			Frieza
 
-	Makyo Type (1x Gravity)
-		Here are their starting stats
+				MODSTR = 1 ; MODEND = 1 ; MODSPD = 1
+				MODENR = 0.75 ; MODKI = 1.25 ; KIRES = 1
+				MODGAIN = 0.5; MODINTEL = 5 ; MODSORC = 5
 
+			Frost
 
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health 10
-		Lift: .1
+				MODSTR = 1 ; MODEND = 1 ; MODSPD = 1
+				MODENR = 1 ; MODKI = 1 ; KIRES = 1
+				MODGAIN = 0.5; MODINTEL = 5 ; MODSORC = 5
 
+			//Gravity: 50 mastered (The number used for PL being 490 since 9.8 x 50 = 490)
 
-		Mods
+		DemiGods //(15x Gravity)
 
+			STR = 20 ; END = 20 ; SPD = 20
+			ENR = 20 ; KI = 20 ; KIRES = 20
+			Health = 20 ; Lift = 100
 
-		STR: 1x
-		END: 1.3x
-		SPD 1x
-		ENR 1x
-		KI: 1.3x
-		KIRES 1x
+			MODSTR = 1.3 ; MODEND = 1.3 ; MODSPD = 1
+			MODENR = 1 ; MODKI = 1 ; MODKIRES = 0.7
+			MODGAIN = 1 ; MODINTEL = 10 ; MODSORC = 10
 
-		GAINS 1x
-		INTEL 6x
-		Sorc: 6x
+		Genies //(1x Gravity)
 
-	Neko Type
-		Here are their starting stats
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
+			MODSTR = 1 ; MODEND = 1.3 ; MODSPD = 1.3
+			MODENR = 1.3 ; MODKI = 1 ; MODKIRES = 0.7
+			MODGAIN = 1 ; MODINTEL = 3 ; MODSORC = 3
 
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health 10
-		Lift: .1
+		Humans //(1x Gravity)
 
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
-		Mods
+			MODSTR = 1.3 ; MODEND = 1.3 ; MODSPD = 0.7
+			MODENR = 1.3 ; MODKI = 1.3 ; MODKIRES = 0.7
+			MODGAIN = 1 ; MODINTEL = 4 ; MODSORC = 4
 
+		Kais //(10x Gravity)
 
-		STR 1x
-		END 1.3x
-		SPD 1x
-		ENR 1.3x
-		KI 1x
-		KIRES 1x
-		GAINS 1x
-		INTEL 6x
-		Sorc: 6x
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
-	Noido Type
-		Here are their starting stats
+			MODSTR = 0.7 ; MODEND = 0.7 ; MODSPD = 0.7
+			MODENR = 2.1 ; MODKI = 2.1 ; MODKIRES = 1.3
+			MODGAIN = 1 ; MODINTEL = 6 ; MODSORC = 6
 
+		Metamorans //(1x Gravity)
 
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health: 10
-		LIFT: 0.1
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
+			MODSTR = 1 ; MODEND = 1.3 ; MODSPD = 1
+			MODENR = 1 ; MODKI = 1.3 ; MODKIRES = 1
+			MODGAIN = 1 ; MODINTEL = 7 ; MODSORC = 7
 
-		Mods
+		Namekians //(1x Gravity)
 
+			NamekianFighters
 
-		STR: 1.6x
-		END: 1.3x
-		SPD: 1x
-		ENR: 1x
-		KI: 1x
-		KIRES: 1x
-		GAIN: 1x
-		INTEL: 15x
-		Sorc: 15x
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
-	Shibo Type
-		Here are their starting stats
+			MODSTR = 0.7 ; MODEND = 1.25 ; MODSPD = 1.25
+			MODENR = 1.3 ; MODKI = 1.3 ; MODKIRES = 1
+			MODGAIN = 1 ; MODINTEL = 9 ; MODSORC = 9
 
+			NamekianHealers
 
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health 10
-		Lift: .1
+			STR = 5 ; END = 5 ; SPD = 5
+			ENR = 5 ; KI = 5 ; KIRES = 5
+			Health = 5 ; Lift = 100
 
+			MODSTR = 0.8 ; MODEND = 0.8 ; MODSPD = 0.8
+			MODENR = 1.2 ; MODKI = 1.2 ; MODKIRES = 1.2
+			MODGAIN = 1 ; MODINTEL = 9 ; MODSORC = 9
 
-		Mods
+		Ogres //(1x Gravity)
 
+			STR = 100 ; END = 100 ; SPD = 100
+			ENR = 100 ; KI = 100 ; KIRES = 100
+			Health = 100 ; Lift = 100
 
-		STR 1x
-		END 1.3x
-		SPD 1x
-		ENR 1x
-		KI 1.3x
-		KIRES 1x
-		INTEL 9
-		Sorc 9x
-		GAINS 1x
+			MODSTR = 1.3 ; MODEND = 1 ; MODSPD = 1
+			MODENR = 1 ; MODKI = 1.3 ; MODKIRES = 1
+			MODGAIN = 1 ; MODINTEL = 4 ; MODSORC = 4
 
-	Sukushi Type
-		Here are their starting stats
+		Saiyans //(10x Gravity)
 
+			MODSTR = 1.2 ; MODEND = 1.2 ; MODSPD = 1
+			MODENR = 1 ; MODKI = 1 ; MODKIRES = 1
+			MODGAIN = 1 ; MODINTEL = 20 ; MODSORC = 20
 
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health 10
-		Lift: .1
+			LowSaiyans
 
+				STR = 8 ; END = 8 ; SPD = 8
+				ENR = 8 ; KI = 8 ; KIRES = 8
+				Health = 8 ; Lift = 100
 
-		Mods
+			AverageSaiyans
 
+				STR = 10 ; END = 10 ; SPD = 10
+				ENR = 10 ; KI = 10 ; KIRES = 10
+				Health = 10 ; Lift = 100
 
-		STR 1.3x
-		END 1.3x
-		SPD 1.3x
-		ENR .7x
-		KI .7x
-		KIRES 1.3x
-		GAINS 1x
-		INTEL 9
-		Sorc: 9x
+			EliteSaiyans
 
-	Taimu Type
-		Here are their starting stats
+				STR = 13 ; END = 13 ; SPD = 13
+				ENR = 13 ; KI = 13 ; KIRES = 13
+				Health = 13 ; Lift = 100
 
+			LegendarySaiyans
 
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health 10
-		Lift: .1
+				STR = 10200 ; END = 10200 ; SPD = 10200
+				ENR = 10200 ; KI = 10200 ; KIRES = 10200
+				Health = 10200 ; Lift = 100
 
+		SpiritDolls //(1x Gravity)
 
-		Here are their mods
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
+			MODSTR = 0.5 ; MODEND = 0.5 ; MODSPD = 1
+			MODENR = 2.3 ; MODKI = 2.3 ; MODKIRES = 1
+			MODGAIN = 0.7 ; MODINTEL = 5 ; MODSORC = 5
 
-		STR: .7x
-		END: .7x
-		SPD; 1x
-		ENR: 1.6x
-		KI: 1.6x
-		KIRES: 1x
-		INTEL: 7x
-		Sorc: 7x
-		GAIN: .25x
+		Tuffles //(10x Gravity)
 
-	Arcosians (50x Gravity)
-		FOR ALL ARCOSIAN TYPES
+			STR = 5 ; END = 5 ; SPD = 5
+			ENR = 5 ; KI = 5 ; KIRES = 5
+			Health = 5 ; Lift = 100
 
+			MODSTR = 1.3 ; MODEND = 1 ; MODSPD = 1
+			MODENR = 1 ; MODKI = 1.3 ; MODKIRES = 1
+			MODGAIN = 1 ; MODINTEL = 1 ; MODSORC = 1
 
-		INTEL 5x
-		Sorc: 5x
-		GAINS 0.5x
+		Wizards //(10x Gravity)
 
+			STR = 3 ; END = 3 ; SPD = 3
+			ENR = 3 ; KI = 3 ; KIRES = 3
+			Health = 3 ; Lift = 100
 
-		Mods
+			MODSTR = 0.2 ; MODEND = 0.2 ; MODSPD = 0.2
+			MODENR = 1 ; MODKI = 2.3 ; MODKIRES = 0.2
+			MODGAIN = 0.25 ; MODINTEL = 3 ; MODSORC = 3
 
+		Yardrats //(1x Gravity)
 
-		Cooler Types
+			STR = 10 ; END = 10 ; SPD = 10
+			ENR = 10 ; KI = 10 ; KIRES = 10
+			Health = 10 ; Lift = 100
 
+			MODSTR = 1 ; MODEND = 1 ; MODSPD = 1
+			MODENR = 1.5 ; MODKI = 1.5 ; MODKIRES = 1
+			MODGAIN = 1 ; MODINTEL = 11 ; MODSORC = 11
 
-		STR - 1x
-		END - 1x
-		SPD - 1x
-		ENR - 1.25x
-		KI - .75x
-		KIRES - 1x
+		Zeno //(10x Gravity)
 
-
-		Chilled Types
-
-
-		STR - .75x
-		END - .75x
-		SPD - 1x
-		ENR - 1.75x
-		KI - 1.75x
-		KIRES - 1x
-
-
-
-
-		King Cold
-
-
-		STR - 1.75x
-		END - 1.75x
-		SPD - 1x
-		ENR - .75x
-		KI - .75x
-		KIRES - 1x
-
-
-		Frieza Types
-
-
-		STR - 1x
-		END - 1x
-		SPD - 1x
-		ENR .75x
-		KI - 1.25x
-		KIRES - 1x
-
-
-		Frost Types
-
-
-		STR - 1x
-		END - 1x
-		SPD - 1x
-		ENR - 1x
-		KI - 1x
-		KIRES - 1x
-
-
-		The Solid Stats that ALL Arcosians are born with
-
-
-		STR: 100
-		END: 100
-		SPD: 100
-		ENR: 100
-		KI: 100
-		KIRES: 100
-		Health: 100
-		Gravity: 50 mastered (The number used for PL being 490 since 9.8 x 50 = 490)
-
-	Demi Gods (15x Gravity)
-		Here are their starting stats
-
-
-		STR 20
-		END 20
-		SPD 20
-		ENR 20
-		KI 20
-		KIRES 20
-		Health 20
-		Lift: .1
-
-
-		Mods
-
-
-		STR 1.3x
-		END 1.3x
-		SPD 1x
-		ENR 1x
-		KI 1x
-		KIRES .7x
-		GAINS 1x
-		INTEL 10
-		Sorc: 10x
-
-	Genies (1x Gravity)
-		Here are their starting stats
-
-
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health 10
-		Lift: .1
-
-
-		Mods
-
-
-		STR: 1x
-		END: 1.3x
-		SPD: 1.3x
-		ENR: 1.3x
-		KI 1x
-		KIRES: .7x
-		GAINS 1x
-		INTEL 3
-		Sorc: 3x
-
-	Humans (1x Gravity)
-		Here are their starting stats
-
-
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health 10
-		Lift: .1
-
-
-		Mods
-
-
-		STR 1.3x
-		END 1.3x
-		SPD .7x
-		ENR 1.3x
-		KI 1.3x
-		KIRES .7x
-		GAINS 1x
-		INTEL 4
-		Sorc: 4x
-
-	Kais (10x Gravity)
-		Here are their starting stats
-
-
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health 10
-		Lift: .1
-
-
-		Mods
-
-
-		STR .7x
-		END .7x
-		SPD .7x
-		ENR 2.1x
-		KI 2.1x
-		KIRES 1.3x
-		GAINS 1x
-		INTEL 6
-		Sorc: 6x
-
-	Metamorans (1x Gravity)
-		Here are their starting stats
-
-
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health 10
-		Lift: .1
-
-
-		Mods
-
-
-		STR 1x
-		END 1.3x
-		SPD 1x
-		ENR 1x
-		KI 1.3x
-		KIRES 1x
-		GAINS 1x
-		INTEL 7x
-		Sorc: 7x
-
-	Namekians (1x Gravity)
-		GAINS 1x
-		INTEL 7x
-		Sorc: 7x
-
-
-
-
-		Here are their starting stats for Namekian Fighters
-
-
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health 10
-		Lift: .1
-
-
-		Namekian Fighters excel in Ki and Energy, and have decent at speed and endurance. They also excel in lift, but are quite lacking in
-		strength.
-
-
-		STR- .7x
-		Spd- 1.25x
-		End- 1.25x
-		Health- 1x
-		Ki- 1.3x
-		Enr- 1.3x
-		Kires- 1x
-		Melee 1.x
-
-
-		Here are their starting stats for Namekian Healers
-
-
-		STR 5
-		END 5
-		SPD 5
-		ENR 5
-		KI 5
-		KIRES 5
-		Health 5
-		Lift: .1
-
-
-		Namekian Healers are lacking in physical stats, but their health, ki, ki res and and energy make up for it.
-
-
-		Str- .8x
-		Spd- .8x
-		End- .8x
-		Health- 1.2x
-		Ki- 1.2x
-		Enr- 1;2x
-		Ki res- 1.2x
-
-	Ogres (1x Gravity)
-		Here are their starting stats
-
-
-		STR 100
-		END 100
-		SPD 100
-		ENR 100
-		KI 100
-		KIRES 100
-		Health 100
-		Lift: .1
-
-
-		Mods
-
-
-		STR 1.3x
-		END 1x
-		SPD 1x
-		ENR 1x
-		KI 1.3x
-		KIRES 1x
-		GAINS 1x
-		INTEL 4
-		Sorc: 4x
-
-	Saiyans (10x Gravity)
-		Saiyan best stat modifiers are
-
-
-		Strength and Endurance
-
-
-		STR- 1.2x
-		SPD- 1x
-		END- 1.2x
-		Energy- 1x
-		Ki- 1x
-		KiRes- 1x
-
-
-
-
-		Gain Mod: 1x
-		Intelligence Mod: 20x
-		Sorcery Mod: 20x
-
-			 Low-Class Saiyans are born with a little less stats than the average Saiyan and elites.
-		They’re born with
-
-
-		STR: 8
-		END: 8
-		SPD: 8
-		ENR: 8
-		KI: 8
-		KIRES: 8
-		Health: 8
-
-
-		Low-Class Saiyans need to learn tail training, but will never learn Oozaru Control.
-
-
-		SAIYANS LEARN ALL THE BASIC SKILLS EXCEPT FOR THE SENSING SKILLS. THEY WILL NEVER LEARN THOSE UNLESS TAUGHT!
-
-
-		When making a Saiyan, you have a 30% chance to be given a Low-Class Saiyan character.
-		Here are the average class Saiyan Starting stats
-
-
-			STR: 10
-			END: 10
-			SPD: 10
-			ENR: 10
-			KI: 10
-			KIRES: 10
-			Health: 10
-
-
-			Average class Saiyans learn Tail Training and Oozaru Control.
-
-
-		30% chance of making Average Class Saiyan.
-		Elite Saiyans are born with these given stats
-
-
-		STR: 13
-		SPD: 13
-		END: 13
-		KI: 13
-		ENR: 13
-		KIRES: 13
-		Health: 13
-
-
-		They are born with tail training and Oozaru Control, they just have to master it.
-
-
-		30% Chance to be born with elite
-		Legendary Saiyans are born with
-
-
-		STR: 10,200
-		END: 10,200
-		SPD: 10,200
-		ENR: 10,200
-		KI: 10,200
-		KIRES: 10,200
-		Health: 10,200
-
-
-		Legendary Saiyans are supposed to be rped without a conscious mind. They have to be an absolute killing machine. Saiyans get 30%
-		chance Low Class, Average Class, and Elite Class, but Legendary Class is 10%.
-
-	Spirit Dolls (1x Gravity)
-		Here are their starting stats
-
-
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health 10
-		Lift: .1
-
-
-		Mods
-
-
-		STR .5x
-		END .5x
-		SPD 1x
-		ENR 2.3x
-		KI 2.3x
-		KIRES 1x
-		GAINS .7x
-		INTEL 5x
-		Sorc: 5x
-
-	Tuffles (10x Gravity)
-		Here are their starting stats
-
-
-		STR 5
-		END 5
-		SPD 5
-		ENR 5
-		KI 5
-		KIRES 5
-		Health 5
-		Lift: .1
-
-
-		MODS
-
-
-		STR 1x
-		END 1x
-		SPD 1x
-		ENR 1x
-		KI 1x
-		KIRES 1x
-		INTEL: 1
-		Sorc: 1x
-
-	Wizards (10x Gravity)
-		Wizards have extremely low mods in all stats except energy, gravity, and ki. They excel in ki
-
-
-Here are their starting stats
-
-
-		STR 3
-		END 3
-		SPD 3
-		ENR 3
-		KI 3
-		KIRES 3
-		Health 3
-		Lift: .1
-
-
-		MODS
-
-
-		STR .2x
-		END .2x
-		SPD .2x
-		ENR 1x
-		KI 2.3x
-		KIRES .2x
-		GAINS .25x
-		INTEL 3
-		Sorc: 3x
-
-	Yardrats (1x Gravity)
-		Here are their starting stats
-
-
-		STR 10
-		END 10
-		SPD 10
-		ENR 10
-		KI 10
-		KIRES 10
-		Health 10
-		Lift: .1
-
-
-		Mods
-
-
-		STR 1x
-		END 1x
-		SPD 1x
-		ENR 1.5x
-		KI 1.5x
-		KIRES 1x
-		GAINS 1x
-		INTEL 11x
-		Sorc: 11x
-
-	Zeno (10x Gravity)
-		Zeno Race doesn’t have mods, just stat presets
-
-
-		STR 1,000,000,000,000,000
-		END 1,000,000,000,000,000
-		SPD 1,000,000,000,000,000
-		ENR 1,000,000,000,000,000
-		KI 1,000,000,000,000,000
-		KIRES 1,000,000,000,000,000
-		Health 1,000,000,000,000,000
-		Lift: 1,000,000,000,000,000
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
+			STR = 1000000000000000 ; END = 1000000000000000 ; SPD = 1000000000000000
+			ENR = 1000000000000000 ; KI = 1000000000000000 ; KIRES = 1000000000000000
+			Health = 1000000000000000 ; Lift = 1000000000000000

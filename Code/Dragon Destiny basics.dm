@@ -4,6 +4,16 @@ world
 
 	view = 6
 
+client
+	New()
+		..()
+		world<< output("[src.key] has joined.","output1")
+
+	Del()
+		..()
+		world<< output("[usr.name]/[src.key] has left","output1")
+		usr.Save()
+
 mob
 	New()
 		movementLoop()
@@ -27,6 +37,44 @@ mob
 					else if(rightKey) 	 applyForce(EAST,3)
 
 					sleep(world.tick_lag)
+
+		Loadplayer()
+			var/list/players=usr.players()
+			var/list/playerlist=new()
+			playerlist=new()
+			playerlist+=players
+			var/selection=input("Load", "Load Character") in playerlist
+			usr.Load(selection)
+
+		Save()
+			var/savefile/F = new("players/[usr.ckey].savefile")
+			var/char = ckeyEx(usr.name)
+			F["/[ckey]/[char]"]<<usr
+
+		Load(char)
+			var/mob/n
+			var/savefile/F = new("players/[usr.ckey].savefile")
+			F["/[ckey]/[char]"]>>n
+
+		players()
+			var/savefile/F=new("players/[usr.ckey].savefile")
+			F.cd="/[ckey]"
+			var/list/players=F.dir
+			return players
+
+	Write(savefile/F)
+		..()
+		F["S_x"]<<x
+		F["S_y"]<<y
+		F["S_z"]<<z
+
+	Read(savefile/F)
+		..()
+		var{S_x;S_y;S_z}
+		F["S_x"]>>S_x
+		F["S_y"]>>S_y
+		F["S_z"]>>S_z
+		loc=locate(S_x,S_y,S_z)
 
 # define UP_KEY 0
 # define DOWN_KEY 1

@@ -15,6 +15,17 @@ Gravity
 These stats determine the below stats
 
 
+mob
+	verb
+		Attack(mob/M)
+			var/damage = round(src.strength - (M.armor/maxarmor*100)*rand(0.9,1.1))
+			var/Test = round(src.hit - M.dodge)
+			if(prob(Test))
+				if(damage >= 1)
+					M.health -= round(damage)
+					M.killer = usr
+
+
 
 Damage
 Ki Damage

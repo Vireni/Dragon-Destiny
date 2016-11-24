@@ -9,9 +9,11 @@ obj
 				usr<< output("Are you sure you wish to start a new game?","output1")
 			else
 				usr.sight |= BLIND
-				winshow(usr,"newchar",1)
+				usr.icon = 'Base_ArcosianFriezaBase.dmi'
+				usr.icon_state = "standing"
+				winshow(usr,"Character",1)
 				var/icon/I = Fuse_Icons(usr)
-				winset(usr,"newchar.chardisplay","image=\ref[fcopy_rsc(I)]")
+				winset(usr,"Character.chardisplay","image=\ref[fcopy_rsc(I)]")
 	LoadGame
 		icon = 'Load.dmi'
 		layer = OBJ_LAYER+1
