@@ -14,6 +14,7 @@ obj
 				usr.Race = "Arcosians"
 				winshow(usr,"Character",1)
 				var/icon/I = Fuse_Icons(usr)
+				winset(usr,"Character.background","image=\ref['Arcosian.png']")
 				winset(usr,"Character.chardisplay","image=\ref[fcopy_rsc(I)]")
 	LoadGame
 		icon = 'Load.dmi'
