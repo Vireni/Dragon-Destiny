@@ -77,7 +77,7 @@ window "Character"
 		is-maximized = false
 		can-scroll = none
 		icon = ""
-		image = 'Assets\\Images\\Human.png'
+		image = ""
 		image-mode = stretch
 		keep-aspect = false
 		transparent-color = none
@@ -85,6 +85,34 @@ window "Character"
 		macro = ""
 		menu = ""
 		on-close = ""
+	elem "background"
+		type = LABEL
+		pos = 0,0
+		size = 550x500
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		text = ""
+		image = ""
+		image-mode = center
+		keep-aspect = false
+		align = center
+		text-wrap = false
+		allow-html = false
+		letterbox = true
 	elem "button5"
 		type = BUTTON
 		pos = 472,472
